@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"dd3d593e0754118b","type":"file","file":"AOSP/build aosp.md","x":-178,"y":-208,"width":400,"height":400},
+		{"id":"d7ffc93ecb069677","type":"file","file":"AOSP/create aidl.md","x":-700,"y":-480,"width":400,"height":396},
+		{"id":"9a5022dfc3eced37","type":"file","file":"AOSP/Generate aidl.md","x":-720,"y":-8,"width":400,"height":400},
+		{"id":"41f25636afe0ed63","x":0,"y":-980,"width":400,"height":400,"type":"file","file":"AOSP/system services.md"}
+	],
+	"edges":[
+		{"id":"cd39e9904f4fc55f","fromNode":"d7ffc93ecb069677","fromSide":"right","toNode":"dd3d593e0754118b","toSide":"top"},
+		{"id":"e974dba494160884","fromNode":"d7ffc93ecb069677","fromSide":"bottom","toNode":"9a5022dfc3eced37","toSide":"top"},
+		{"id":"2232dafd1b6a7db0","fromNode":"41f25636afe0ed63","fromSide":"bottom","toNode":"dd3d593e0754118b","toSide":"top"},
+		{"id":"83b39452ecd07ea0","fromNode":"41f25636afe0ed63","fromSide":"bottom","toNode":"d7ffc93ecb069677","toSide":"right"}
+	]
+}

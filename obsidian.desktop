@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Obsidian
+Exec=/opt/Obsidian-1.4.16.AppImage 
+Icon=/opt/ons.png
+comment=cloud
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Categories=Utility;

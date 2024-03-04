@@ -1,0 +1,26 @@
+{
+    "unicast" : "10.0.0.5",
+    "netmask" : "255.255.255.0",
+    "logging" : 
+    {
+        "level" : "debug",
+        "console" : "true",
+        "file" : { "enable" : "true", "path" : "/var/log/vsomeip.log" },
+        "dlt" : "true"
+    },
+    "applications" :
+    [
+        {
+            "name" : "subscribe-sample",
+            "id" : "0x4444"
+        }
+    ],
+    "routing" : "",
+    "service-discovery" :
+    {
+        "enable" : "true",
+        "multicast" : "224.0.0.1",
+        "port" : "30490",
+        "protocol" : "udp"
+    }
+}

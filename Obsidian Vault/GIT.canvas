@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"178d06e6414c76df","x":140,"y":-464,"width":444,"height":391,"type":"file","file":"GIT/Installation&Configuration.md"},
+		{"id":"4df6cced1c60e19d","x":-600,"y":-380,"width":400,"height":400,"type":"file","file":"GIT/Git Branches.md"},
+		{"id":"533f8a067afdb53b","x":-140,"y":120,"width":400,"height":400,"type":"file","file":"GIT/Bases de GIT.md"}
+	],
+	"edges":[
+		{"id":"ecca118b668c1bfd","fromNode":"178d06e6414c76df","fromSide":"left","toNode":"4df6cced1c60e19d","toSide":"right"},
+		{"id":"1e6e9868d344591c","fromNode":"178d06e6414c76df","fromSide":"bottom","toNode":"533f8a067afdb53b","toSide":"top"}
+	]
+}
